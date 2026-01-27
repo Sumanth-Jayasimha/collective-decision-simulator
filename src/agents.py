@@ -22,5 +22,6 @@ def update_belief(self):
 
 def decide(self)
 #makes decision based on observation
-if self.belief > self.threshold:
-  else return 0
+if self.belief >= self.threshold:
+  #else return 0
+
