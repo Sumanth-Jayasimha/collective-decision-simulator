@@ -8,3 +8,5 @@ for obs in observations:
     agent.observe(obs)
     agent.update_belief()
     print(f"Belief: {agent.belief:.3f}, Decision: {agent.decide()}")
+print("Baseline experiment running")
+
