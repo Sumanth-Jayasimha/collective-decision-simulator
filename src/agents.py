@@ -1,4 +1,4 @@
-class DecisionAgents:
+class DecisionAgent:
   def __inti__ (self,threshold, agent_id):
     self.agent_id = agent_id
     self.threshold = threshold
@@ -24,4 +24,5 @@ def decide(self)
 #makes decision based on observation
 if self.belief >= self.threshold:
   #else return 0
+
 
